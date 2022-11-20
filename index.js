@@ -16,7 +16,7 @@ const name = pointParking (nameParkingPoint);
 const free = quantityTaxi (freeAuto);
 const number = numberTaxisGo (TaxisGo);
 const point = pointCarGo (GoOutPoint);
-const text = `"Отримані данні показують що" `;
+const text = `Отримані данні показують що `;
 let strResultOrderOnTaxi = `То ж замовлення не може бути, опрацьованно.`;
     if (freeAuto>0) {
    strResultOrderOnTaxi =`То ж замовлення може бути, опрацьованно.`;
