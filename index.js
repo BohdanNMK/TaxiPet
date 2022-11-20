@@ -9,7 +9,7 @@ function quantityTaxi (freeAuto) {
    return `авто що прибувають протягом 5 хвилин: "${TaxisGo}" `
  }
  function pointCarGo (GoOutPoint) {
-   return `авто що поїхали з точки: "${GoOutPoint}" `
+   return `авто що поїхали з точки: "${GoOutPoint}". `
  }
 function associationAllparametr(nameParkingPoint,freeAuto,TaxisGo,GoOutPoint) {
 const name = pointParking (nameParkingPoint);
