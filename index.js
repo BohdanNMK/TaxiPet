@@ -1,22 +1,22 @@
 const arguments = process.argv
 function pointParking (nameParkingPoint) {
-  return `на стоянці "${nameParkingPoint}": `;
+  return `на стоянці "${nameParkingPoint}":`;
 }
 function quantityTaxi (freeAuto) {
-   return `вільних авто: "${freeAuto}", `;
+   return ` вільних авто: "${freeAuto}",`;
  }
  function numberTaxisGo (TaxisGo) {
-   return `авто що прибувають протягом 5 хвилин: "${TaxisGo}", `;
+   return ` авто що прибувають протягом 5 хвилин: "${TaxisGo}",`;
  }
  function pointCarGo (GoOutPoint) {
-   return `авто що поїхали з точки: "${GoOutPoint}". `;
+   return ` авто що поїхали з точки: "${GoOutPoint}". `;
  }
 function associationAllparametr(nameParkingPoint,freeAuto,TaxisGo,GoOutPoint) {
 const name = pointParking (nameParkingPoint);
 const free = quantityTaxi (freeAuto);
 const number = numberTaxisGo (TaxisGo);
 const point = pointCarGo (GoOutPoint);
-const text = `Отримані данні показують що `;
+const text = `Отримані данні показують що`;
 let strResultOrderOnTaxi = `То ж замовлення не може бути, опрацьованно.`;
     if (freeAuto>0) {
    strResultOrderOnTaxi =`То ж замовлення може бути, опрацьованно.`;
